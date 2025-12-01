@@ -189,6 +189,9 @@
       "track_widths": [
         0.0,
         0.1524,
+        0.2032,
+        0.254,
+        0.3048,
         1.0,
         2.0,
         3.0,
@@ -225,6 +228,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -245,16 +252,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1358900|685800|0b2a27d8-0010-4013-9c1c-4f2b2eb6a17e|7cc7e21c-a671-44e1-834d-bdff513e68ee|/9fcef582-88b0-445f-9371-37d79a145b84|/9fcef582-88b0-445f-9371-37d79a145b84|/9fcef582-88b0-445f-9371-37d79a145b84",
-        "All of the grounds should be tied together"
-      ],
-      [
-        "multiple_net_names|1358900|685800|7fdc22ab-016e-428f-b6e3-951c4886bad0|c6992929-c73c-48e8-b48d-fba16ee42c08|/9fcef582-88b0-445f-9371-37d79a145b84|/9fcef582-88b0-445f-9371-37d79a145b84|/9fcef582-88b0-445f-9371-37d79a145b84",
-        "This is Expected"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
