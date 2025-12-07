@@ -4,4 +4,5 @@
   (lib (name "MPM3610GQV-P")(type "KiCad")(uri "${KIPRJMOD}/lib/MPM3610GQV-P/footprints.pretty")(options "")(descr ""))
   (lib (name "EMC2101-ACZL")(type "KiCad")(uri "${KIPRJMOD}/lib/EMC2101-ACZL/footprints.pretty")(options "")(descr ""))
   (lib (name "INA219B")(type "KiCad")(uri "${KIPRJMOD}/lib/INA219B/footprints.pretty")(options "")(descr ""))
+  (lib (name "Aeolus")(type "KiCad")(uri "${KIPRJMOD}/lib/Aeolus.pretty")(options "")(descr ""))
 )
