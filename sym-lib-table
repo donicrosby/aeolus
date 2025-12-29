@@ -4,4 +4,5 @@
   (lib (name "MPM3610GQV-P")(type "KiCad")(uri "${KIPRJMOD}/lib/MPM3610GQV-P/MPM3610GQV-P.kicad_sym")(options "")(descr ""))
   (lib (name "EMC2101-ACZL")(type "KiCad")(uri "${KIPRJMOD}/lib/EMC2101-ACZL/2025-11-30_15-35-04.kicad_sym")(options "")(descr ""))
   (lib (name "INA219B")(type "KiCad")(uri "${KIPRJMOD}/lib/INA219B/2025-11-30_16-28-19.kicad_sym")(options "")(descr ""))
+  (lib (name "Qwiic_Logo")(type "KiCad")(uri "${KIPRJMOD}/lib/SparkFun_Qwiic_Logo_-_KiCad/SparkFun-Qwiic.kicad_sym")(options "")(descr ""))
 )

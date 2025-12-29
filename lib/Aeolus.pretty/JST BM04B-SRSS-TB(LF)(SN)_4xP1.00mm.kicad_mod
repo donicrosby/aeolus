@@ -53,9 +53,59 @@
 			)
 		)
 	)
+	(fp_line
+		(start -3.45 0.45)
+		(end -3.45 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0e53ced-38fe-4723-a338-3fa791da4c68")
+	)
+	(fp_line
+		(start -3.45 1.6)
+		(end -2 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "648ecc15-a339-4af8-a651-9c1c5e175a7d")
+	)
+	(fp_line
+		(start -2.3 -1.6)
+		(end 2.3 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2cf28a35-759f-4b75-9370-488b8a528b62")
+	)
+	(fp_line
+		(start 2 1.6)
+		(end 3.45 1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdcfbe74-2f71-441b-bba5-77ddb1820ba1")
+	)
+	(fp_line
+		(start 3.45 1.6)
+		(end 3.45 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f4b6c8b-7be8-420a-8e1f-62b54df6dcaa")
+	)
 	(fp_circle
-		(center -2.4 2)
-		(end -2.2 2.1)
+		(center -2.273607 2.15)
+		(end -2.073607 2.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -156,20 +206,6 @@
 			)
 		)
 	)
-	(pad "" smd roundrect
-		(at -3.1 -0.75)
-		(size 1.2 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(uuid "11064944-47bb-4ce3-b806-19c041e4d981")
-	)
-	(pad "" smd roundrect
-		(at 3.1 -0.75)
-		(size 1.2 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(uuid "adc4334a-fb32-4fbb-9857-02c5cec3d7fc")
-	)
 	(pad "1" smd roundrect
 		(at -1.5 1.775)
 		(size 0.6 1.55)
@@ -198,10 +234,24 @@
 		(roundrect_rratio 0.15)
 		(uuid "f9dc61fc-f99d-419c-90c5-f50b2c0520b5")
 	)
+	(pad "MP" smd roundrect
+		(at -3.1 -0.75)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "11064944-47bb-4ce3-b806-19c041e4d981")
+	)
+	(pad "MP" smd roundrect
+		(at 3.1 -0.75)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "adc4334a-fb32-4fbb-9857-02c5cec3d7fc")
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d_models/BM04B-SRSS-TB.STEP"
 		(offset
-			(xyz 0 0.8 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
