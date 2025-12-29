@@ -5,4 +5,5 @@
   (lib (name "EMC2101-ACZL")(type "KiCad")(uri "${KIPRJMOD}/lib/EMC2101-ACZL/footprints.pretty")(options "")(descr ""))
   (lib (name "INA219B")(type "KiCad")(uri "${KIPRJMOD}/lib/INA219B/footprints.pretty")(options "")(descr ""))
   (lib (name "Aeolus")(type "KiCad")(uri "${KIPRJMOD}/lib/Aeolus.pretty")(options "")(descr ""))
+  (lib (name "Qwiic_Logo")(type "KiCad")(uri "${KIPRJMOD}/lib/SparkFun_Qwiic_Logo_-_KiCad/SparkFun-Qwiic.pretty")(options "")(descr ""))
 )
